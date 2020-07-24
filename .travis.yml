@@ -1,15 +1,13 @@
 language: node_js
 node_js:
-  - "stable"
-cache:
-  directories:
-    - node_modules
+  - "12.18.2"
+cache: yarn
 
 install:
-  - npm install
+  - yarn install
 
 script:
-  - npm install run build
+  - yarn build
 
 deploy:
   provider: pages
