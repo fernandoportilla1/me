@@ -16,6 +16,6 @@ deploy:
   provider: pages
   cleanup: true
   github-token: $GITHUB_TOKEN
-  local_dir: ./build/
+  local_dir: ./public/
   on:
     branch: master
