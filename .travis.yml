@@ -16,8 +16,6 @@ deploy:
   provider: pages
   cleanup: true
   github-token: $GITHUB_TOKEN
-  local_dir: ./build
-  keep_history: true
-  target_branch: gh-pages
+  local_dir: build/
   on:
     branch: master
