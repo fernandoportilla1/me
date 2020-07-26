@@ -17,8 +17,6 @@ deploy:
   cleanup: true
   github-token: $GITHUB_TOKEN
   repo: fernandoportilla1/fernandoportilla1.github.io
-  keep-history: true
-  target-branch: master
   local_dir: build
   on:
     branch: master
