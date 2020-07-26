@@ -1,17 +1,17 @@
 language: node_js
 node_js:
   - "12.18.2"
-cache: yarn
+cache: npm
 
 env:
   - PUBLIC_URL=me/
 
 install:
-  - yarn install
+  - npm install
 
 script:
-  - yarn test
-  - yarn build
+  - npm run test
+  - npm run build
 
 deploy:
   provider: surge
