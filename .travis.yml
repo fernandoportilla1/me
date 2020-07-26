@@ -3,6 +3,9 @@ node_js:
   - "12.18.2"
 cache: yarn
 
+env:
+  - PUBLIC_URL=me
+
 install:
   - yarn install
 
@@ -16,7 +19,6 @@ deploy:
   provider: pages
   cleanup: true
   github-token: $GITHUB_TOKEN
-  repo: fernandoportilla1/fernandoportilla1.github.io
   local_dir: build
   on:
     branch: gh-pages
