@@ -4,7 +4,7 @@ node_js:
 cache: yarn
 
 env:
-  - PUBLIC_URL=me
+  - PUBLIC_URL=me/
 
 install:
   - yarn install
