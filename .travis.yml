@@ -3,14 +3,10 @@ node_js:
   - "12.18.2"
 cache: npm
 
-env:
-  - PUBLIC_URL=./
-
 install:
   - npm install
 
 script:
-  - npm run test
   - npm run build
 
 deploy:
