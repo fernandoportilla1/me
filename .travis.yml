@@ -4,7 +4,7 @@ node_js:
 cache: npm
 
 env:
-  - PUBLIC_URL=me/
+  - PUBLIC_URL=./
 
 install:
   - npm install
