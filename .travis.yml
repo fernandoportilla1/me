@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "12.18.2"
+  - "stable"
 cache: npm
 
 install:
@@ -13,7 +13,6 @@ deploy:
   provider: pages
   cleanup: true
   github_token: $GITHUB_TOKEN
-  keep_history: true
   local_dir: ./build/
   on:
     branch: master
