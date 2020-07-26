@@ -19,4 +19,4 @@ deploy:
   repo: fernandoportilla1/fernandoportilla1.github.io
   local_dir: build
   on:
-    branch: master
+    branch: gh-pages
